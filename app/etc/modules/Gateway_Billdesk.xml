@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gateway_Billdesk>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Gateway_Billdesk>
+    </modules>
+</config>

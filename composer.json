@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Gateway_Billdesk",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Billdesk Payment Gateway Extension for Magento",
+    "authors": [
+    {
+        "name": "mahitiextension",
+        "email": "admin@mahiti.org"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

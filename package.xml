@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Gateway_Billdesk</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Billdesk Payment Gateway Extension for Magento</summary>
+    <description>BillDesk Payment Gateway extension is a module for the Magento e-commerce platform based websites developed by Mahiti Infotech, Bangalore. BillDesk, being one of the most popular payment gateways in India, has been providing secure, fast and reliable web and mobile payment solutions to Businesses, NGOs and the Government. This module is aimed at providing easy integration of Billdesk Payment Gateway with Magento based shopping carts.</description>
+    <notes>you can use this extension for integrating Billdesk payment gateway</notes>
+    <authors><author><name>mahitiextension</name><user>Mahiti</user><email>admin@mahiti.org</email></author></authors>
+    <date>2016-04-28</date>
+    <time>11:37:15</time>
+    <contents><target name="magelocal"><dir name="Gateway"><dir name="Billdesk"><dir name="Block"><file name="Failure.php" hash="485af36d77bd0842a119ae2025672a54"/><file name="Form.php" hash="8f46b6f30b3271bdf4f3d1286b14a83c"/><file name="Redirect.php" hash="6a94d2cd6cf8a4340df6e79575961886"/></dir><dir name="Helper"><file name="Data.php" hash="2bb9d3c040a68b0ad3608d380193d016"/><file name="Log.php" hash="a009673ee0b8a43e303ec86292aa2892"/></dir><dir name="Model"><file name="Billdesk.php" hash="9b00cb2a1fe83eb82bdaa8c49dc38821"/><file name="Config.php" hash="db99b36371bb1381276dbfaa370cead1"/><dir name="Mysql4"><dir name="Billdesk"><file name="Collection.php" hash="83f8ad286a65019d6508d3d4502a4cd4"/></dir><file name="Billdesk.php" hash="b62d23fba97526232d7fe04ed3a69c48"/></dir><file name="Report.php" hash="ea0114abea91d786392f1d9c2b4ae385"/><file name="Session.php" hash="27a065dc230fbd0561071d4ee11e06ee"/><dir name="Source"><file name="PaymentTypes.php" hash="70488a4643c11fcd18471a5751b34828"/></dir><file name="Transaction.php" hash="c6e6afd8f6c979411fde24a72115c0b3"/><file name="TransactionValidator.php" hash="8ea3097bbe7d94f77cfa519edd191f9f"/></dir><dir name="controllers"><file name="NotificationController.php" hash="7fa68bb0cd532d9d40c9a91bee6c3842"/><file name="ResponseController.php" hash="5c240347214f395650133857dbb542c6"/></dir><dir name="etc"><file name="config.xml" hash="5920d32ccaca241e2efd52b043bd0d1d"/><file name="system.xml" hash="67827173f5a29fd5f28c87f12fd6c487"/></dir><dir name="sql"><dir name="mbilldesk_setup"><file name="mysql4-install-0.1.0.php" hash="6b31ba82f6ea4898bca7948bd1a7adbd"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="billdesk.xml" hash="3aacf15f81d848b0fef6af2a82da7560"/></dir><dir name="template"><dir name="mbilldesk"><file name="failure.phtml" hash="c79d1fef70cef87d2fd86e880bac418a"/><file name="form.phtml" hash="90e06b0161132f090077787ca9a64bb9"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Gateway_Billdesk.xml" hash="450861819aad3966522398217f67e04c"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
