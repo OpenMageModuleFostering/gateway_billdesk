@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Gateway_Billdesk",
+    "name": "openmage-module-fostering\/gateway_billdesk",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Billdesk Payment Gateway Extension for Magento",
     "authors": [
